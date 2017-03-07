@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="ModalPagesSample.Page3"
+	Title="Page3">
+	<StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+		<Button Text="Prev" Clicked="OnPrevButtonTapped" />
+		<Button Text="TopPage" Clicked="OnTopPageButton" />
+		<Button Text="InsertPageBefore" Clicked="OnInsertPageBeforeButton" />
+		<Button Text="RemovePrevPage" Clicked="OnRemovePrevPageButton" />
+		<Button Text="ReplacePrevPage" Clicked="OnReplacePrevPageButton" />
+	</StackLayout>
+</ContentPage>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="ModalPagesSample.Page2"
+	Title="Page2">
+	<StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+		<Button Text="Next" Clicked="OnNextButtonTapped" />
+		<Button Text="Prev" Clicked="OnPrevButtonTapped" />
+	</StackLayout>
+</ContentPage>

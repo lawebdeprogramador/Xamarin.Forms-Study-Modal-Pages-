@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="ModalPagesSample.TopPage"
+	Title="TopPage">
+	<ContentPage.Padding>
+		<OnPlatform x:TypeArguments="Thickness" iOS="0, 20, 0, 0" />
+	</ContentPage.Padding>
+	<StackLayout>
+		<Label Text=" " HeightRequest="60" HorizontalOptions="Center" />
+		<Label Text="TopPage" FontSize="50" HeightRequest="180" HorizontalOptions="Center" />
+		<Button Text="ShowNext" Clicked="OnShowNextButtonTapped" />
+	</StackLayout>
+</ContentPage>

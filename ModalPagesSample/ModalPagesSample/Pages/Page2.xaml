@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="ModalPagesSample.Page2"
+	Title="Page2">
+	<ContentPage.Padding>
+		<OnPlatform x:TypeArguments="Thickness" iOS="0, 20, 0, 0" />
+	</ContentPage.Padding>
+	<StackLayout>
+		<Label Text=" " HeightRequest="60" HorizontalOptions="Center" />
+		<Label Text="Page2" FontSize="50" HeightRequest="120" HorizontalOptions="Center" />
+		<Button Text="ShowNext" Clicked="OnShowNextButtonTapped" />
+		<Button Text="Dismiss" Clicked="OnDismissButtonTapped" />
+	</StackLayout>
+</ContentPage>
