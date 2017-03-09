@@ -22,6 +22,7 @@ namespace ModalPagesSample
             base.OnAppearing();
 
             Trace.WriteMethod();
+            Trace.WriteNavigationStack(this);
             Trace.WriteModalStack(this);
         }
 
@@ -30,6 +31,7 @@ namespace ModalPagesSample
             base.OnDisappearing();
 
             Trace.WriteMethod();
+            Trace.WriteNavigationStack(this);
             Trace.WriteModalStack(this);
         }
 
